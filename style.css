@@ -115,9 +115,9 @@ li::marker {
     display: block;
     margin: auto;
     max-width: 80%;
-    max-height: auto;
+    max-height: 80%;
     min-height: 20%;
-    min-width: auto;
+    min-width: 20%;
 }
 
 .stats_icons {
