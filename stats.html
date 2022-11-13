@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Application - Tesla</title>
+        <link rel="icon" href="assets/favicon.ico"/>
+        <link id="Style" rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 class="title">Stats recharge</h1>
+        <h2 class="date_info">31 derniers jours</h2>
+
+        <section class="stats">
+            <section class="stat">
+                <p class="title_stat">Total recharge</p>
+                <p class="data_stat">25 kWh</p>
+            </section>
+
+            <section class="stat">
+                <p class="title_stat">Dépenses totales</p>
+                <p class="data_stat">4 €</p>
+            </section>
+        </section>
+
+        <img class="graphique" src="assets/graphique.png" alt="" title="graphique stats"/>
+
+        <section class="stats_icons">
+            <section class="stat_icon">
+                <img class="graph" src="assets/stats_home.png" alt="" title="home icon"/>
+                <section class="text">
+                    <h3 class="full_percent">100%</h3>
+                    <p>Domicile</p>
+                </section>
+            </section>
+
+            <section class="stat_icon">
+                <img class="graph" src="assets/stats_eclair.png" alt="" title="bolt icon"/>
+                <section class="text">
+                    <h3>0%</h3>
+                    <p>Superchargeur</p>
+                </section>
+            </section>
+
+            <section class="stat_icon">
+                <img class="graph" src="assets/stats_work.png" alt="" title="bag icon"/>
+                <section class="text">
+                    <h3>0%</h3>
+                    <p>Lieu de travail</p>
+                </section>
+            </section>
+
+            <section class="stat_icon">
+                <img class="graph" src="assets/stats_prise.png" alt="" title="socket icon"/>
+                <section class="text">
+                    <h3>0%</h3>
+                    <p>Domicile</p>
+                </section>
+            </section>
+        </section>
+
+        <section class="carburant">
+            <h2>Économies de carburant</h2>
+            <p class="carburant_info">Rechargez jusquà au moins 75 kWh pour visualiser une estimation de vos économies de carburant.</p>
+        </section>
+
+        <section class="cout_moyen">
+            <h3>Domicile</h3>
+            <progress id="bar" value="100" max="100"></progress> 0,17€
+
+            <h3>Superchargeur</h3>
+            <p class="value">0,00 €</p>
+
+            <h3>Lieu de travail</h3>
+            <p class="value">0,00 €</p>
+
+            <h3>Autre</h3>
+            <p class="value">0,00 €</p>
+        </section>
+
+        <section class="settings">
+            <section class="settings_title">
+                <img src="assets/settings.png" alt="" title="settings icon"/>
+                <h2> Paramètres </h2>
+                <img src="assets/chevron.png" alt="" title="arrow icon"/>
+            </section>
+            <p>L'affichage de la devise se fait en fonction de la langue (français) et du pays (FR) de votre téléphone.</p>
+        </section>
+    </body>
+</html>
