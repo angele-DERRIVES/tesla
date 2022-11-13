@@ -1,0 +1,75 @@
+<!--PAS DE DIV (icons8.com)
+target permet d'avoir un lien qui point vers une ancre-->
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Application - Tesla</title>
+        <link rel="icon" href="assets/favicon.ico"/>
+        <link id="Style" rel="stylesheet" href="style_V1.css">
+        <script src="https://kit.fontawesome.com/4823553caa.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <h1>Simone</h1>
+
+        <ul>
+            <li><progress id="bar" value="71" max="100"></progress>71%</li>
+            <li>Stationée</li>
+        </ul>
+
+        <!-- formulaire pour l'account, il devra ramener dans une nouvel endroit -->
+        
+        <!-- <a href="account.html" onclick="closeLeftNav()" title="account"><i class="fas fa-user"></i></a> -->
+
+        <a href="account.html"><img src="assets/user.png" alt="" title="account"/></a>
+    
+
+        <nav class="header">
+            <ul class="header_items">
+                <li><img src="assets/button.png" alt="" title="securite et controleur"/></li>
+                <li><img src="assets/vent.png" alt="" title="ventilation"/></li>
+                <li><img src="assets/bolt.png" alt="" title="charge"/></li>
+                <li><img src="assets/car.png" alt="" title="controles"/></li>
+            </ul>
+        </nav>
+
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+        </script>            
+
+        <img src="assets/voiture_basique.png" alt="" title="tesla"/>
+
+        <ul>
+            <li><h2>Contrôles</h2></li>
+            <li><h2>Ventilation</h2></li>
+            <li><h2>Position</h2></li>
+            <li><h2>Planifier</h2></li>
+            <li><h2>Sécurité et conducteurs</h2></li>
+            <li><h2>Stats recharge</h2></li>
+            <li><h2>Mises à niveau</h2></li>
+        </ul>
+    </body>
+</html>
+
+
+<!--
+    progress bar/jauge/meter
+    date
+    menu
+    nav
+    small
+    button
+-->

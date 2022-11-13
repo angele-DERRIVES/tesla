@@ -1,0 +1,19 @@
+body {
+    background-color: #161718;
+    color: #f3f3f3;
+}
+
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.header_items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color:#161718;
+}
