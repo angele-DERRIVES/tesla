@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    background-color: #161718;
+    color: #f3f3f3;
+    font-family: arial;
+}
+
+/* formulaire login */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+    width: 100%;
+}
+
+.info {
+    padding: 1%;
+}
+
+/* main page */
+
+.title {
+    margin: 3%;
+    margin-bottom: 0%;
+}
+
+/* header */
+.header {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding-right: 5%;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* image voiture */
+.car {
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+/* navbar */
+.major_elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* fonctionnalités */
+.all-category {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.categorie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2%;
+}
+
+.icon {
+    width: 200%;
+    height: auto;
+}
+
+.icon_category {
+    width: 5%;
+    height: auto;
+}
+
+.name_category {
+    font-size: 150%;
+}
+
+li::marker {
+    color:#161718;
+}
+
+/* stats */
+.date_info {
+    margin-left: 3%;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.stat {
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.graphique {
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    max-height: auto;
+    min-height: 20%;
+    min-width: auto;
+}
+
+.stats_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.stat_icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    color: #8a8b8b;
+}
+
+.full_percent {
+    color: #f3f3f3; 
+}
+
+.carburant {
+    padding: 3%;
+    background-color: #222323;
+    margin-bottom: 2%;
+}
+
+.carburant_info {
+    color: #8a8b8b;
+}
+
+.cout_moyen {
+    padding: 3%;
+    background-color: #222323;
+    margin-bottom: 2%;
+}
+
+.value {
+    color: #8a8b8b;
+}
+
+.settings {
+    margin: 3%;
+}
+
+.settings_title {
+    display: flex;
+    flex-direction: row;
+}
