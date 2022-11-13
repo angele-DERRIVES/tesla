@@ -1,0 +1,69 @@
+<!--PAS DE DIV (icons8.com)
+target permet d'avoir un lien qui point vers une ancre-->
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Application - Tesla</title>
+        <link rel="icon" href="assets/favicon.ico"/>
+        <link id="Style" rel="stylesheet" href="style_V2.css">
+    </head>
+
+    <body>
+        <h1>Simone</h1>
+
+        <ul class="header">
+            <ul class="infos">
+                <li><progress id="bar" value="71" max="100"></progress>71%</li>
+                <li>Stationée</li>
+            </ul>
+            <a href="account.html"><img src="assets/user.png" alt="" title="account"/></a>
+        </ul>
+
+        <!-------------------------------------------------------------------------------->
+            
+        <div id="navbar">
+            <a class="active" href="javascript:void(0)">
+                <img src="assets/button.png" alt="" title="securite et controleur"/>
+            </a>
+            <a href="javascript:void(0)">
+                <img src="assets/vent.png" alt="" title="ventilation"/>
+            </a>
+            <a href="javascript:void(0)">
+                <img src="assets/bolt.png" alt="" title="charge"/>
+            </a>
+            <a href="javascript:void(0)">
+                <img src="assets/car.png" alt="" title="controles"/>
+            </a>
+        </div>
+           
+        <img src="assets/voiture_basique.png" alt="" title="tesla"/>
+
+        <ul>
+            <li><h2>Contrôles</h2></li>
+            <li><h2>Ventilation</h2></li>
+            <li><h2>Position</h2></li>
+            <li><h2>Planifier</h2></li>
+            <li><h2>Sécurité et conducteurs</h2></li>
+            <li><h2>Stats recharge</h2></li>
+            <li><h2>Mises à niveau</h2></li>
+        </ul>
+
+        <script>
+           window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+        </script>    
+
+    </body>
+</html>
